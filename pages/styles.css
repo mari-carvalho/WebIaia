@@ -1,6 +1,6 @@
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -9,9 +9,10 @@ body {
 /* Cabeçalho fixo */
 .fixed-header {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100%;
+    height: 80px;
     background-color: rgb(20, 69, 165);
     color: rgb(218, 221, 240);
     padding: 10px 0;
@@ -20,34 +21,41 @@ body {
 .fixed-header ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-top: 30px;
     text-align: center;
 }
 
 .fixed-header li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 70px;
 }
 
 .fixed-header a {
     text-decoration: none;
     color: rgb(218, 220, 230);
     font-weight: bold;
+    font-size: x-large;
 }
 
 /* Estilos da seção Sobre */
-#sobre {
+.sobre {
     background-color: rgb(62, 86, 218);
-    padding: 20px;
+    padding: 120px;
+    font-size: x-large;
+}
+.infos {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 /* Estilos da seção Como Doar */
-#doar {
+.doar {
     background-color: rgb(37, 82, 179);
     padding: 20px;
 }
 
-#doar strong {
+.doar strong {
     color: #333;
     font-weight: bold;
 }
