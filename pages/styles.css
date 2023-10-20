@@ -13,7 +13,7 @@ body {
     left: 0px;
     width: 100%;
     height: 80px;
-    background-color: rgb(20, 69, 165);
+    background-color: #0A5DA6;
     color: rgb(218, 221, 240);
     padding: 10px 0;
 }
@@ -38,21 +38,41 @@ body {
 }
 
 /* Estilos da seção Sobre */
-.sobre {
-    background-color: rgb(62, 86, 218);
-    padding: 120px;
+.subtítulos {
+    text-align: left;
     font-size: x-large;
+    font-weight: bold;
+    color: #11A2A8;
 }
+
+.tittle {
+    background-color: rgb(251, 254, 255);
+    padding: 120px;
+    font-size: xx-large;
+    color: #277186;
+}
+
+.tittle2 {
+    background-color: rgb(251, 254, 255);
+    padding: 120px;
+    font-size: xx-large;
+    color: #277186;
+}
+
+/* caracterização das infos/linha do tempo do menu principal */
 .infos {
     text-align: center;
     font-size: x-large;
     font-weight: bold;
+    color: #11A2A8;
 }
 
 /* Estilos da seção Como Doar */
 .doar {
-    background-color: rgb(37, 82, 179);
-    padding: 20px;
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+    color: #11A2A8;
 }
 
 .doar strong {
