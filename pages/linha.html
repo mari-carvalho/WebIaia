@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .timeline {
+            position: relative;
+            width: 100%;
+            height: 2px;
+            background-color: #ccc;
+        }
+
+        .line {
+            position: absolute;
+            width: 2px;
+            height: 100%;
+            background-color: #ccc;
+        }
+
+        .line:nth-child(odd) {
+            left: 20%;
+        }
+
+        .line:nth-child(even) {
+            left: 80%;
+        }
+        
+        .horizontal-line {
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #ccc;
+        }
+
+        .horizontal-line:nth-child(odd) {
+            top: 30%;
+        }
+
+        .horizontal-line:nth-child(even) {
+            top: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div class="timeline">
+        <div class="line"></div>
+        <div class="horizontal-line"></div>
+        <div class="line"></div>
+        <div class="horizontal-line"></div>
+        <div class="line"></div>
+        <div class="horizontal-line"></div>
+        <div class="line"></div>
+    </div>
+</body>
+</html>

@@ -1,9 +1,9 @@
 /* Estilos gerais */
 body {
     font-family: "Inter", sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
 }
 
 /* Cabeçalho fixo */
@@ -43,25 +43,115 @@ body {
     font-size: x-large;
     font-weight: bold;
     color: #11A2A8;
+    position: relative;
+    top: -5px;
 }
 
+.img-rosto {
+    width: 220px;
+    height: 200px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    border-radius: 25px;
+}
+
+.img-caso {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    border-radius: 25px;
+}
+
+.img-qr {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    border-radius: 25px;
+}
+
+.img-square-rosto {
+    width: 270px;
+    height: 250px;
+    position: relative;
+    top: -10px;
+    left: 0px;
+    background-color: #11A2A8;
+    border-radius: 25px;
+}
+
+.img-square-front {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    background-color: #11A2A8;
+    border-radius: 25px;
+}
+
+.img-square-left {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    top: -340px;
+    left: 500px;
+    background-color: #11A2A8;
+    border-radius: 25px;
+}
+
+.img-square-qr {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 30px;
+    left: 760px;
+    background-color: #11A2A8;
+    border-radius: 25px;
+}
 .tittle {
-    background-color: rgb(251, 254, 255);
-    padding: 120px;
+    position: relative;
+    top: 120px;
+    left: 50px;
     font-size: xx-large;
     color: #277186;
 }
 
 .tittle2 {
-    background-color: rgb(251, 254, 255);
-    padding: 120px;
+    position: relative;
+    top: 100px;
+    left: 50px;
     font-size: xx-large;
     color: #277186;
 }
 
 /* caracterização das infos/linha do tempo do menu principal */
-.infos {
-    text-align: center;
+.who {
+    position: relative;
+    top: 40px;
+    left: 5px;
+    right: 3000px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #11A2A8;
+}
+
+.when {
+    position: relative;
+    top: 350px;
+    left: 700px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #11A2A8;
+}
+.what {
+    position: relative;
+    top: -250px;
+    left: 1300px;
     font-size: x-large;
     font-weight: bold;
     color: #11A2A8;
@@ -69,7 +159,7 @@ body {
 
 /* Estilos da seção Como Doar */
 .doar {
-    text-align: left;
+    text-align: center;
     font-size: x-large;
     font-weight: bold;
     color: #11A2A8;
@@ -89,3 +179,69 @@ footer {
     padding: 120px;
 
 }
+/* Início da Linha do Tempo */
+.timeline {
+    position: relative;
+    top: -110px;
+    width: 1770px;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.event {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #277186;
+    border-radius: 50%;
+}
+/* odd - ímpar */
+.event:nth-child(odd) {
+    left: 368px;
+    top: -120px;
+;
+}
+/* even - par */
+.event:nth-child(even) {
+    left: 871px;
+    top: -20px;
+}
+
+.vertical-line {
+    position: relative;
+    width: 2px;
+    height: 100px;
+    background-color: #ccc;
+}
+
+.vertical-line:nth-child(odd) {
+    top: -140px;
+    left: 880px;
+}
+
+.vertical-line:nth-child(even) {
+    top: -120px;
+    left: 377px;
+}
+
+/* Carcterísiticas da última linha */
+.vertical-line-last {
+    position: relative;
+    width: 2px;
+    height: 100px;
+    background-color: #ccc;
+    top: -360px;
+    left: 1480px;
+
+}
+
+.event-last {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #277186;
+    border-radius: 50%;
+    top: -360px;
+    left: 1471px;
+}
+
