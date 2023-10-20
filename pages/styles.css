@@ -82,8 +82,10 @@ body {
 
 /* Rodapé */
 footer {
-    background-color: #333;
-    color: rgb(62, 86, 218);
+    background-color: #0A5DA6;
+    color:  rgb(218, 220, 230);
+    width: 100%;
     text-align: center;
-    padding: 10px 0;
+    padding: 120px;
+
 }
